@@ -71,6 +71,7 @@ write_html_page () {
 			$(report_disk_space)
 			$(report_home_space)
 		</BODY>
+	</HTML>
 }
 
 # process command line options
