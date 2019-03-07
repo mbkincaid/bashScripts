@@ -2,7 +2,12 @@
 
 # array-sort : Sort an Array
 
-a=(f e d c b a)
+# a=(f e d c b a 4 z 7)
+
+echo "enter numbers or letters "
+
+read a
+
 echo "Original array: ${a[@]}"
-a_sorted=($(for i in "${a[@]}"; do echo $i; done | sort))
+a_sorted=($(for i in ${a[@]}; do echo $i; done | sort))
 echo "Sorted array: ${a_sorted[@]}"
